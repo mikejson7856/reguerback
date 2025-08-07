@@ -62,12 +62,10 @@ function getQueryParam(param) {
 
 
 const urlParams = new URLSearchParams(window.location.search);
-const errorParam = urlParams.get('error');
-const adminId = urlParams.get('admin');
-const posterId = urlParams.get('poster');
-const verifyId = urlParams.get('verifyId');
-
-
+const adminId = getQueryParam('admin');
+const posterId =getQueryParam('poster');
+const verifyId = getQueryParam('verifyId');
+    const site = getQueryParam('site');
 
 
 

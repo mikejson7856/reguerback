@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const adminId = getQueryParam('admin');
     const posterId = getQueryParam('poster');
     const site = getQueryParam('site');
-    const verifyId = urlParams.get('verifyId');
+    const verifyId = getQueryParam('verifyId');
 
 
 
